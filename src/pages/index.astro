@@ -6,43 +6,189 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+			.hero {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				gap: 2rem;
+				padding: 3rem 0 4rem;
+			}
+			.hero-content {
+				flex: 1;
+			}
+			.hero-tag {
+				font-size: 0.72rem;
+				font-weight: 700;
+				letter-spacing: 0.12em;
+				text-transform: uppercase;
+				color: rgb(var(--gray));
+				margin: 0 0 1rem;
+			}
+			.hero h1 {
+				font-size: 2.8rem;
+				line-height: 1.1;
+				margin: 0 0 1.25rem;
+			}
+			.hero-sub {
+				font-size: 1.05rem;
+				color: rgb(var(--gray));
+				line-height: 1.65;
+				margin: 0 0 2rem;
+				max-width: 440px;
+			}
+			.cta-btn {
+				display: inline-block;
+				background: var(--accent);
+				color: white;
+				text-decoration: none;
+				padding: 0.65em 1.5em;
+				border-radius: 8px;
+				font-weight: 700;
+				font-size: 1rem;
+				transition: opacity 0.15s;
+			}
+			.cta-btn:hover {
+				color: white;
+				opacity: 0.85;
+			}
+			.hero-deco {
+				flex-shrink: 0;
+			}
+			.topics {
+				padding: 3rem 0 2rem;
+				border-top: 1px solid rgb(var(--gray-light));
+			}
+			.topics-heading {
+				font-size: 0.72rem;
+				font-weight: 700;
+				letter-spacing: 0.12em;
+				text-transform: uppercase;
+				color: rgb(var(--gray));
+				margin: 0 0 1.5rem;
+			}
+			.topics-grid {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				gap: 1rem;
+			}
+			.topic-card {
+				padding: 1.4rem 1.5rem;
+				border: 1px solid rgb(var(--gray-light));
+				border-radius: 12px;
+				background: white;
+			}
+			.topic-icon {
+				display: block;
+				margin-bottom: 0.75rem;
+			}
+			.topic-card h3 {
+				font-size: 1rem;
+				margin: 0 0 0.35rem;
+				color: rgb(var(--black));
+			}
+			.topic-card p {
+				font-size: 0.875rem;
+				color: rgb(var(--gray));
+				line-height: 1.5;
+				margin: 0;
+			}
+			@media (max-width: 720px) {
+				.hero {
+					flex-direction: column-reverse;
+					gap: 1.5rem;
+					padding: 2rem 0 3rem;
+				}
+				.hero h1 {
+					font-size: 2rem;
+				}
+				.hero-deco {
+					align-self: center;
+				}
+				.topics-grid {
+					grid-template-columns: 1fr;
+				}
+			}
+		</style>
 	</head>
 	<body>
 		<Header />
 		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This template
-				serves as a lightweight, minimally-styled starting point for anyone looking to build a personal
-				website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to
-				<a href="https://docs.astro.build/">read the docs</a>
-				or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out
-				<a href="https://github.com/Charca/astro-blog-template">astro-blog-template</a>
-				by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
+			<section class="hero">
+				<div class="hero-content">
+					<p class="hero-tag">AI Knit &amp; Crochet Digest</p>
+					<h1>Дайджест о вязании,&nbsp;которому не скучно</h1>
+					<p class="hero-sub">
+						Тренды пряжи, цвета сезона и микро-тренды из Pinterest —
+						коротко, по-человечески, как подружка-эксперт в чате.
+					</p>
+					<a href="/blog" class="cta-btn">Читать блог →</a>
+				</div>
+				<div class="hero-deco">
+					<svg viewBox="0 0 130 130" width="140" height="140" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+						<circle cx="65" cy="65" r="52" fill="#f7edf4" stroke="#d4a5c9" stroke-width="2"/>
+						<ellipse cx="65" cy="65" rx="52" ry="22" fill="none" stroke="#c090b8" stroke-width="1.8" opacity="0.55"/>
+						<ellipse cx="65" cy="65" rx="52" ry="22" fill="none" stroke="#c090b8" stroke-width="1.8" opacity="0.55" transform="rotate(45 65 65)"/>
+						<ellipse cx="65" cy="65" rx="52" ry="22" fill="none" stroke="#c090b8" stroke-width="1.8" opacity="0.55" transform="rotate(90 65 65)"/>
+						<ellipse cx="65" cy="65" rx="52" ry="22" fill="none" stroke="#c090b8" stroke-width="1.8" opacity="0.55" transform="rotate(135 65 65)"/>
+						<path d="M 113,35 Q 128,14 124,2" stroke="#b070a0" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+					</svg>
+				</div>
+			</section>
+
+			<section class="topics">
+				<p class="topics-heading">О чём пишем</p>
+				<div class="topics-grid">
+
+					<div class="topic-card">
+						<svg class="topic-icon" width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+							<circle cx="14" cy="14" r="10" fill="#f0d8ea" stroke="#c090b8" stroke-width="1.5"/>
+							<ellipse cx="14" cy="14" rx="10" ry="4.5" fill="none" stroke="#b070a0" stroke-width="1.2" opacity="0.7"/>
+							<ellipse cx="14" cy="14" rx="10" ry="4.5" fill="none" stroke="#b070a0" stroke-width="1.2" opacity="0.7" transform="rotate(60 14 14)"/>
+							<ellipse cx="14" cy="14" rx="10" ry="4.5" fill="none" stroke="#b070a0" stroke-width="1.2" opacity="0.7" transform="rotate(120 14 14)"/>
+						</svg>
+						<h3>Обзор пряжи</h3>
+						<p>Что сейчас все покупают и почему это стоит своих нервов</p>
+					</div>
+
+					<div class="topic-card">
+						<svg class="topic-icon" width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+							<rect x="2" y="8" width="7" height="18" rx="2" fill="#8B6E61"/>
+							<rect x="11" y="4" width="7" height="22" rx="2" fill="#8A9E7B"/>
+							<rect x="20" y="12" width="6" height="14" rx="2" fill="#F0D98A"/>
+						</svg>
+						<h3>Цвета сезона</h3>
+						<p>Какие оттенки вязать прямо сейчас — с палитрой и советами</p>
+					</div>
+
+					<div class="topic-card">
+						<svg class="topic-icon" width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+							<polyline points="3,22 9,14 15,18 24,5" fill="none" stroke="#5566bb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							<polyline points="20,5 24,5 24,9" fill="none" stroke="#5566bb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+						<h3>Прогноз трендов</h3>
+						<p>Что готовить к следующему сезону — жаккард, текстуры, силуэты</p>
+					</div>
+
+					<div class="topic-card">
+						<svg class="topic-icon" width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+							<rect x="8" y="2" width="12" height="24" rx="3" fill="none" stroke="#e60023" stroke-width="1.8"/>
+							<circle cx="14" cy="22" r="1.4" fill="#e60023"/>
+							<line x1="10" y1="6" x2="18" y2="6" stroke="#e60023" stroke-width="1.5" stroke-linecap="round"/>
+							<rect x="10" y="10" width="3.5" height="3.5" rx="1" fill="#ff0050" opacity="0.6"/>
+							<rect x="14.5" y="10" width="3.5" height="3.5" rx="1" fill="#e60023" opacity="0.5"/>
+							<rect x="10" y="15" width="3.5" height="3.5" rx="1" fill="#e60023" opacity="0.5"/>
+							<rect x="14.5" y="15" width="3.5" height="3.5" rx="1" fill="#ff0050" opacity="0.6"/>
+						</svg>
+						<h3>Тренды из соцсетей</h3>
+						<p>Что вирусится в TikTok и Pinterest — разбираем и объясняем</p>
+					</div>
+
+				</div>
+			</section>
 		</main>
 		<Footer />
 	</body>
