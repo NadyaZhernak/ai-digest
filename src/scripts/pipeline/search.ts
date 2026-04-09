@@ -14,6 +14,13 @@ export interface NewsItem {
   description: string;
 }
 
+export interface Topic {
+  name: string;
+  search_query: string;
+  image_prompt: string;
+  article_prompt_file?: string;
+}
+
 export function slugify(text: string): string {
   return text
     .toLowerCase()
@@ -71,46 +78,4 @@ export function searchNews(_query: string): NewsItem[] {
       description: 'Вязаные балаклавы набирают миллионы просмотров. Показываем простую схему.',
     },
   ];
-}
-
-/** STUB: copies placeholder cover. Will call Replicate API in Step 5. */
-export function generateCoverImage(prompt: string, slug: string): string {
-  console.log(`[STUB] generateCoverImage(slug="${slug}")`);
-  console.log(`[STUB] image prompt: ${prompt}`);
-
-  const assetsDir = path.join(process.cwd(), 'src/assets');
-  const placeholder = path.join(assetsDir, 'placeholder-cover.jpg');
-  const dest = path.join(assetsDir, `${slug}.webp`);
-
-  if (fs.existsSync(placeholder)) {
-    fs.copyFileSync(placeholder, dest);
-  } else {
-    fs.writeFileSync(dest, '');
-    console.log(`[STUB] No placeholder found, created empty file at ${dest}`);
-  }
-
-  return `src/assets/${slug}.webp`;
-}
-
-/** STUB: writes article .md locally. Will create GitHub PR in Step 5. */
-export function createPullRequest(
-  title: string,
-  content: string,
-  imagePath: string
-): string {
-  const slug = slugify(title);
-  const date = new Date().toISOString().split('T')[0];
-  const filename = `${date}-${slug}.md`;
-  const destDir = path.join(process.cwd(), 'src/content/blog');
-  const destPath = path.join(destDir, filename);
-
-  fs.mkdirSync(destDir, { recursive: true });
-  fs.writeFileSync(destPath, content, 'utf-8');
-
-  const prLabel = `[STUB] Would create PR: "digest: ${title}"`;
-  console.log(`[STUB] Article written to ${destPath}`);
-  console.log(`[STUB] Cover at: ${imagePath}`);
-  console.log(prLabel);
-
-  return prLabel;
 }

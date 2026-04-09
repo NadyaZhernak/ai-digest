@@ -10,7 +10,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "pipeline": "tsx pipeline/main.ts"
+    "pipeline": "tsx src/scripts/pipeline/index.ts"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.3",

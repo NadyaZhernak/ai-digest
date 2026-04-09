@@ -1,21 +1,9 @@
 import fs from 'fs';
 import path from 'path';
-import {
-  readExistingArticles,
-  searchNews,
-  generateCoverImage,
-  createPullRequest,
-  slugify,
-  type NewsItem,
-} from './tools.js';
-import { buildStyleWithPrompt, STYLE_DEFAULT } from './prompts.js';
-
-interface Topic {
-  name: string;
-  search_query: string;
-  image_prompt: string;
-  article_prompt_file?: string;
-}
+import { readExistingArticles, searchNews, slugify, type Topic } from './search.js';
+import { buildStubArticle, buildStyleWithPrompt, loadArticlePrompt, STYLE_DEFAULT } from './write.js';
+import { generateCoverImage } from './cover.js';
+import { createPullRequest } from './publish.js';
 
 interface DigestConfig {
   topics: Topic[];
@@ -25,40 +13,6 @@ interface DigestConfig {
 function loadConfig(): DigestConfig {
   const configPath = path.join(process.cwd(), 'digest.config.json');
   return JSON.parse(fs.readFileSync(configPath, 'utf-8'));
-}
-
-function loadArticlePrompt(topic: Topic): string | null {
-  if (!topic.article_prompt_file) return null;
-  const promptPath = path.join(process.cwd(), topic.article_prompt_file);
-  if (!fs.existsSync(promptPath)) {
-    console.warn(`[WARN] Prompt file not found: ${promptPath}`);
-    return null;
-  }
-  return fs.readFileSync(promptPath, 'utf-8');
-}
-
-function buildStubArticle(topic: Topic, newsItems: NewsItem[], imagePath: string): string {
-  const date = new Date().toISOString().split('T')[0];
-  const firstNews = newsItems[0];
-
-  return `---
-title: '[STUB] Дайджест: ${topic.name}'
-description: 'Заглушка пайплайна (Step 3). Тема: ${topic.name}. Источник: ${firstNews?.title ?? 'нет новостей'}'
-pubDate: '${date}'
-tags: ['knitting', 'trends', '${topic.name}']
-cover: '${imagePath}'
----
-
-> ⚠️ Это заглушка Step 3. Реальный текст будет генерировать Claude в Step 5.
-
-## Тема: ${topic.name}
-
-**Поисковый запрос:** \`${topic.search_query}\`
-
-### Найденные новости
-
-${newsItems.map((n, i) => `${i + 1}. [${n.title}](${n.url})\n   ${n.description}`).join('\n\n')}
-`;
 }
 
 async function run() {
@@ -75,7 +29,7 @@ async function run() {
   // Step 2: Search news and pick a unique topic
   console.log('Step 2: Searching for news...');
   let selectedTopic: Topic | null = null;
-  let selectedNews: NewsItem[] = [];
+  let selectedNews = [];
 
   for (const topic of config.topics) {
     const news = searchNews(topic.search_query);
@@ -113,8 +67,7 @@ async function run() {
     : STYLE_DEFAULT;
   console.log(articlePrompt ? '  Prompt file loaded.' : '  No prompt file — using default casual style.');
 
-  // Step 4: Generate cover image (uses topic image_prompt in stub mode)
-  // In Step 5, Claude will build a richer prompt from the article content itself.
+  // Step 4: Generate cover image
   const slug = slugify(`${selectedTopic.name}-${new Date().toISOString().split('T')[0]}`);
   console.log('\nStep 4: Generating cover image...');
   const imagePath = generateCoverImage(selectedTopic.image_prompt, slug);
