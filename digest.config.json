@@ -1,0 +1,44 @@
+{
+  "topics": [
+    {
+      "name": "yarn_trends",
+      "search_query": "yarn trends knitting crochet 2026",
+      "image_prompt": "flat lay of textured bouclé yarn, warm beige and dusty rose tones, soft natural light, minimal background, editorial style",
+      "article_prompt_file": "docs/prompts/prompt-yarn-review.md"
+    },
+    {
+      "name": "color_trends",
+      "search_query": "color trends knitwear fashion 2026",
+      "image_prompt": "color swatches of yarn arranged in palette, muted earthy tones, overhead shot, clean white background",
+      "article_prompt_file": "docs/prompts/prompt-color-trends.md"
+    },
+    {
+      "name": "social_microtrends",
+      "search_query": "knitting crochet TikTok Pinterest trends 2026",
+      "image_prompt": "cozy knitted accessories flat lay, phone and yarn, trendy aesthetic, soft shadows",
+      "article_prompt_file": "docs/prompts/prompt-social-microtrends.md"
+    },
+    {
+      "name": "techniques_crochet",
+      "search_query": "crochet techniques tutorials trending 2026",
+      "image_prompt": "close-up of crochet hook and yarn texture, hands working on fabric, warm studio light",
+      "article_prompt_file": "docs/prompts/prompt-crochet-tutorial.md"
+    },
+    {
+      "name": "techniques_knitting",
+      "search_query": "knitting techniques tutorials trending 2026",
+      "image_prompt": "close-up of knitting needles and yarn texture, hands working on fabric, warm studio light",
+      "article_prompt_file": "docs/prompts/prompt-knitting-tutorial.md"
+    },
+    {
+      "name": "season_forecast",
+      "search_query": "knitwear fashion forecast autumn winter 2026",
+      "image_prompt": "autumn knitwear flatlay, warm tones, cozy textures, seasonal mood",
+      "article_prompt_file": "docs/prompts/prompt-season-forecast.md"
+    }
+  ],
+  "article": {
+    "language": "ru",
+    "word_count": "300-500"
+  }
+}
