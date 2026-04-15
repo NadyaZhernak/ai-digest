@@ -1,5 +1,5 @@
 ---
-globs: ["src/content/blog/**", "src/scripts/pipeline/write.ts", "docs/prompts/**"]
+paths: ["src/content/blog/**", "src/scripts/pipeline/write.ts", "docs/prompts/**"]
 ---
 
 # Роль редактора

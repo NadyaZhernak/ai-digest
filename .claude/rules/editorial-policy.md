@@ -1,5 +1,5 @@
 ---
-globs: ["src/scripts/pipeline/**", "digest.config.json", "src/content/blog/**"]
+paths: ["src/scripts/pipeline/**", "digest.config.json", "src/content/blog/**"]
 ---
 
 # Критерии отбора новостей

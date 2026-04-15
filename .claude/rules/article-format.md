@@ -1,5 +1,5 @@
 ---
-globs: ["src/content/blog/**/*.{md,mdx}", "src/content.config.ts"]
+paths: ["src/content/blog/**/*.{md,mdx}", "src/content.config.ts"]
 ---
 
 # Формат статьи
