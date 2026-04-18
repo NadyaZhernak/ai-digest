@@ -4,6 +4,7 @@ import { readExistingArticles, searchNews, slugify, type Topic } from './search.
 import { buildStubArticle, buildStyleWithPrompt, loadArticlePrompt, STYLE_DEFAULT } from './write.js';
 import { generateCoverImage } from './cover.js';
 import { createPullRequest } from './publish.js';
+import { processSvgPlaceholders } from '../svg-gen/index.js';
 
 interface DigestConfig {
   topics: Topic[];
@@ -76,11 +77,15 @@ async function run() {
   console.log('\nStep 5: Building stub article...');
   const articleContent = buildStubArticle(selectedTopic, selectedNews, imagePath);
 
+  // Step 5b: Process SVG diagram placeholders
+  console.log('\nStep 5b: Generating SVG diagrams...');
+  const articleWithSvg = processSvgPlaceholders(articleContent);
+
   // Step 6: Create PR
   console.log('\nStep 6: Creating pull request...');
   const prUrl = createPullRequest(
     `[STUB] Дайджест: ${selectedTopic.name}`,
-    articleContent,
+    articleWithSvg,
     imagePath
   );
 

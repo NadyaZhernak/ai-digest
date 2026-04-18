@@ -1,0 +1,181 @@
+---
+// Dev-only визуальный тест-стенд для SVG-генератора радиальных мотивов.
+// Открывается на /dev/svg-preview во время `npm run dev`.
+import { processSvgPlaceholders } from '../../scripts/svg-gen/index.js';
+
+const isDev = import.meta.env.DEV;
+
+const paletteBlock = `<!--svg:palette {
+  "title": "Палитра теста",
+  "colors": [
+    {"name": "Терракота", "hex": "#C17A5A"},
+    {"name": "Масло",     "hex": "#D4A84B"},
+    {"name": "Шалфей",    "hex": "#6B8770"},
+    {"name": "Пудра",     "hex": "#C59AA3"}
+  ]
+}-->`;
+
+const samples: Array<{ title: string; note?: string; md: string }> = [
+  {
+    title: 'Granny 2 раунда (базовый)',
+    note: 'Простейший узор: кластер 3dc + угловая арка ch2.',
+    md: `${paletteBlock}\n<!--svg:stitch-chart {
+  "title": "Granny 2 раунда",
+  "layout": "circular",
+  "center": "magic-ring",
+  "rounds": [
+    {"label": "Раунд 1", "color": 0, "pattern": "3dc, ch2", "repeat": 4, "note": "12 dc, 4 ch-2"},
+    {"label": "Раунд 2", "color": 1, "pattern": "3dc, ch2, 3dc, ch1", "repeat": 4, "note": "24 dc, 4 ch-2, 4 ch-1"}
+  ]
+}-->`,
+  },
+  {
+    title: 'Granny 3 раунда',
+    note: 'Классика: 3 раунда с расширением сторон.',
+    md: `${paletteBlock}\n<!--svg:stitch-chart {
+  "title": "Granny 3 раунда",
+  "layout": "circular",
+  "center": "magic-ring",
+  "rounds": [
+    {"label": "Раунд 1", "color": 0, "pattern": "3dc, ch2", "repeat": 4, "note": "12 dc, 4 ch-2"},
+    {"label": "Раунд 2", "color": 1, "pattern": "3dc, ch2, 3dc, ch1", "repeat": 4, "note": "24 dc, 4 ch-2, 4 ch-1"},
+    {"label": "Раунд 3", "color": 2, "pattern": "3dc, ch1, 3dc, ch2, 3dc, ch1", "repeat": 4, "note": "36 dc, 4 ch-2, 8 ch-1"}
+  ]
+}-->`,
+  },
+  {
+    title: 'Granny 4 раунда',
+    note: '4 раунда разными цветами — тест стабильности геометрии.',
+    md: `${paletteBlock}\n<!--svg:stitch-chart {
+  "title": "Granny 4 раунда",
+  "layout": "circular",
+  "center": "magic-ring",
+  "rounds": [
+    {"label": "Раунд 1", "color": 0, "pattern": "3dc, ch2", "repeat": 4},
+    {"label": "Раунд 2", "color": 1, "pattern": "3dc, ch2, 3dc, ch1", "repeat": 4},
+    {"label": "Раунд 3", "color": 2, "pattern": "3dc, ch1, 3dc, ch2, 3dc, ch1", "repeat": 4},
+    {"label": "Раунд 4", "color": 3, "pattern": "3dc, ch1, 3dc, ch1, 3dc, ch2, 3dc, ch1", "repeat": 4}
+  ]
+}-->`,
+  },
+  {
+    title: 'Solid granny (без ch на сторонах)',
+    note: 'Плотный квадрат: только угловые арки, стороны сплошные.',
+    md: `${paletteBlock}\n<!--svg:stitch-chart {
+  "title": "Solid granny",
+  "layout": "circular",
+  "center": "magic-ring",
+  "rounds": [
+    {"label": "Раунд 1", "color": 0, "pattern": "3dc, ch2", "repeat": 4},
+    {"label": "Раунд 2", "color": 1, "pattern": "6dc, ch2", "repeat": 4},
+    {"label": "Раунд 3", "color": 2, "pattern": "9dc, ch2", "repeat": 4}
+  ]
+}-->`,
+  },
+  {
+    title: 'Солнышко (длинные столбики)',
+    note: 'tr вместо dc — проверка 2 тиков на стебле.',
+    md: `${paletteBlock}\n<!--svg:stitch-chart {
+  "title": "Sunburst",
+  "layout": "circular",
+  "center": "magic-ring",
+  "rounds": [
+    {"label": "Раунд 1", "color": 0, "pattern": "3tr, ch2", "repeat": 4},
+    {"label": "Раунд 2", "color": 1, "pattern": "3tr, ch2, 3tr, ch1", "repeat": 4}
+  ]
+}-->`,
+  },
+];
+
+const rendered = samples.map(s => ({
+  ...s,
+  html: processSvgPlaceholders(s.md),
+}));
+---
+
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>SVG-генератор — тест-стенд</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, sans-serif;
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem;
+        color: #222;
+        background: #fafafa;
+      }
+      h1 {
+        font-size: 1.6rem;
+        margin: 0 0 0.25rem;
+      }
+      .lead {
+        color: #666;
+        margin: 0 0 2rem;
+        font-size: 0.95rem;
+      }
+      .sample {
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        border-radius: 8px;
+        padding: 1.25rem 1.5rem;
+        margin: 0 0 1.5rem;
+      }
+      .sample h2 {
+        font-size: 1.1rem;
+        margin: 0 0 0.25rem;
+      }
+      .sample .note {
+        color: #666;
+        font-size: 0.88rem;
+        margin: 0 0 1rem;
+      }
+      .sample details {
+        margin-top: 0.75rem;
+        font-size: 0.8rem;
+      }
+      .sample pre {
+        background: #f3f3f3;
+        padding: 0.75rem;
+        border-radius: 4px;
+        overflow-x: auto;
+        font-size: 0.78rem;
+        line-height: 1.35;
+      }
+      .no-dev {
+        padding: 2rem;
+        text-align: center;
+        color: #999;
+      }
+    </style>
+  </head>
+  <body>
+    {isDev ? (
+      <>
+        <h1>SVG-генератор — тест-стенд</h1>
+        <p class="lead">
+          Визуальная проверка радиальных мотивов. Сравнивать с референсом
+          CrochetByEllej: столбики сходятся у основания, ch-петли на дугах,
+          углы — диагональные.
+        </p>
+        {rendered.map(sample => (
+          <section class="sample">
+            <h2>{sample.title}</h2>
+            {sample.note && <p class="note">{sample.note}</p>}
+            <div set:html={sample.html} />
+            <details>
+              <summary>Входные плейсхолдеры</summary>
+              <pre>{sample.md}</pre>
+            </details>
+          </section>
+        ))}
+      </>
+    ) : (
+      <p class="no-dev">Эта страница доступна только в dev-режиме.</p>
+    )}
+  </body>
+</html>
