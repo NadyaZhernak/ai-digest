@@ -19,179 +19,135 @@ tags: ['knitting', 'vest', 'beginner', 'chunky']
 
 **Размер готового изделия:** ширина ~110 см (в обхвате), длина ~60 см. Подходит на S–L за счёт свободной посадки.
 
+## Цвет — на твой вкус
+
+Жилет из толстой пряжи просит спокойных нейтралов — под них можно подкладывать что угодно. Вот беспроигрышная тройка, если сомневаешься:
+
+<svg viewBox="0 0 280 88" width="100%" style="max-width:280px;display:block;margin:1.5rem 0" xmlns="http://www.w3.org/2000/svg">
+  <text x="140" y="14" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#999">Нейтралы для chunky-жилета</text>
+  <rect x="10" y="24" width="80" height="40" fill="#E8DBC5" rx="6"/>
+  <text x="50" y="78" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#555">Oat</text>
+  <rect x="100" y="24" width="80" height="40" fill="#B58A5E" rx="6"/>
+  <text x="140" y="78" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#555">Camel</text>
+  <rect x="190" y="24" width="80" height="40" fill="#3C3A3A" rx="6"/>
+  <text x="230" y="78" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#555">Графит</text>
+</svg>
+
+Или бери любой яркий — оверсайз + крупная фактура отлично «держат» насыщенный цвет.
+
 ## Из чего состоит жилет
 
-<svg viewBox="0 0 480 340" width="100%" style="max-width:480px;display:block;margin:1.5rem 0" xmlns="http://www.w3.org/2000/svg">
-  <!-- Спинка -->
-  <rect x="10" y="30" width="180" height="240" rx="2" stroke="#333" fill="none" stroke-width="2"/>
-  <text x="100" y="155" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#333">Спинка</text>
-  <text x="100" y="175" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#666">44 п. × 96 рядов</text>
-  <!-- Размеры спинки -->
-  <line x1="10" y1="290" x2="190" y2="290" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
-  <text x="100" y="308" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#999">≈ 55 см</text>
-  <line x1="205" y1="30" x2="205" y2="270" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
-  <text x="218" y="155" font-family="sans-serif" font-size="10" fill="#999" transform="rotate(90,218,155)">≈ 60 см</text>
+Всё жилет — это три прямоугольника: спинка и две одинаковые полочки. Никаких хитрых форм, убавок, пройм-полукругов. Проймы получаются сами, когда ты просто не сшиваешь верхнюю часть боковых швов.
 
-  <!-- Полочка левая -->
-  <rect x="260" y="30" width="90" height="240" rx="2" stroke="#333" fill="none" stroke-width="2"/>
-  <text x="305" y="145" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">Полочка</text>
-  <text x="305" y="163" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#666">22 п.</text>
-  <text x="305" y="180" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#666">× 96 рядов</text>
-  <line x1="260" y1="290" x2="350" y2="290" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
-  <text x="305" y="308" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#999">≈ 27.5 см</text>
-
-  <!-- Полочка правая -->
-  <rect x="380" y="30" width="90" height="240" rx="2" stroke="#333" fill="none" stroke-width="2"/>
-  <text x="425" y="145" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">Полочка</text>
-  <text x="425" y="163" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#666">22 п.</text>
-  <text x="425" y="180" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#666">× 96 рядов</text>
-  <line x1="380" y1="290" x2="470" y2="290" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
-  <text x="425" y="308" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#999">≈ 27.5 см</text>
-
-  <!-- Знак × 2 -->
-  <text x="365" y="155" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#aaa">×2</text>
-
-  <!-- Заголовок -->
-  <text x="240" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#999">Детали жилета (всё — прямоугольники)</text>
+<svg viewBox="0 0 220 356" width="100%" style="max-width:220px;display:block;margin:1.5rem 0" xmlns="http://www.w3.org/2000/svg">
+  <text x="110" y="16" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">Детали жилета — всё прямоугольники</text>
+  <text x="70" y="40" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#B58A5E">Жилет</text>
+  <rect x="10" y="50" width="28" height="28" fill="#E8DBC5" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <rect x="40" y="50" width="28" height="28" fill="#B58A5E" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <rect x="70" y="50" width="28" height="28" fill="#3C3A3A" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <rect x="100" y="50" width="28" height="28" fill="#E8DBC5" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <rect x="10" y="80" width="28" height="28" fill="#B58A5E" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <rect x="40" y="80" width="28" height="28" fill="#3C3A3A" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <rect x="70" y="80" width="28" height="28" fill="#E8DBC5" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <rect x="100" y="80" width="28" height="28" fill="#B58A5E" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <rect x="10" y="110" width="28" height="28" fill="#3C3A3A" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <rect x="40" y="110" width="28" height="28" fill="#E8DBC5" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <rect x="70" y="110" width="28" height="28" fill="#B58A5E" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <rect x="100" y="110" width="28" height="28" fill="#3C3A3A" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <rect x="10" y="140" width="28" height="28" fill="#E8DBC5" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <rect x="40" y="140" width="28" height="28" fill="#B58A5E" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <rect x="70" y="140" width="28" height="28" fill="#3C3A3A" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <rect x="100" y="140" width="28" height="28" fill="#E8DBC5" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <text x="136" y="110" text-anchor="start" font-family="sans-serif" font-size="9" fill="#555">Спинка 4x4</text>
+  <rect x="10" y="178" width="28" height="28" fill="#E8DBC5" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <rect x="40" y="178" width="28" height="28" fill="#B58A5E" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <rect x="10" y="208" width="28" height="28" fill="#3C3A3A" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <rect x="40" y="208" width="28" height="28" fill="#E8DBC5" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <rect x="10" y="238" width="28" height="28" fill="#B58A5E" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <rect x="40" y="238" width="28" height="28" fill="#3C3A3A" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <rect x="10" y="268" width="28" height="28" fill="#E8DBC5" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <rect x="40" y="268" width="28" height="28" fill="#B58A5E" stroke="#B58A5E" stroke-width="1" rx="2"/>
+  <text x="76" y="238" text-anchor="start" font-family="sans-serif" font-size="9" fill="#555">Полочка 2x4</text>
+  <text x="76" y="250" text-anchor="start" font-family="sans-serif" font-size="8" fill="#555">x2</text>
+  <rect x="10" y="314" width="120" height="24" fill="#f4ede7" stroke="#B58A5E" stroke-width="1" rx="4"/>
+  <text x="70" y="330" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#B58A5E">3 детали</text>
 </svg>
 
-## Схема сборки
-
-<svg viewBox="0 0 360 300" width="100%" style="max-width:400px;display:block;margin:1.5rem 0" xmlns="http://www.w3.org/2000/svg">
-  <!-- Спинка -->
-  <rect x="80" y="60" width="200" height="220" rx="2" stroke="#333" fill="#f7f7f7" stroke-width="2"/>
-  <text x="180" y="175" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#888">Спинка</text>
-
-  <!-- Левая полочка -->
-  <rect x="80" y="60" width="70" height="220" rx="2" stroke="#333" fill="none" stroke-width="2" stroke-dasharray="6,3"/>
-  <text x="115" y="175" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#555">Полочка</text>
-
-  <!-- Правая полочка -->
-  <rect x="210" y="60" width="70" height="220" rx="2" stroke="#333" fill="none" stroke-width="2" stroke-dasharray="6,3"/>
-  <text x="245" y="175" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#555">Полочка</text>
-
-  <!-- Плечевые швы -->
-  <line x1="80" y1="60" x2="150" y2="60" stroke="#c44" stroke-width="3"/>
-  <line x1="210" y1="60" x2="280" y2="60" stroke="#c44" stroke-width="3"/>
-  <text x="115" y="50" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#c44">плечевой шов</text>
-  <text x="245" y="50" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#c44">плечевой шов</text>
-
-  <!-- Боковые швы -->
-  <line x1="80" y1="130" x2="80" y2="280" stroke="#4a8" stroke-width="3"/>
-  <line x1="280" y1="130" x2="280" y2="280" stroke="#4a8" stroke-width="3"/>
-  <text x="65" y="210" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#4a8" transform="rotate(-90,65,210)">боковой шов</text>
-  <text x="295" y="210" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#4a8" transform="rotate(90,295,210)">боковой шов</text>
-
-  <!-- Проймы -->
-  <line x1="80" y1="60" x2="80" y2="130" stroke="#e90" stroke-width="3"/>
-  <line x1="280" y1="60" x2="280" y2="130" stroke="#e90" stroke-width="3"/>
-  <text x="52" y="95" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#e90">пройма</text>
-  <text x="312" y="95" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#e90">пройма</text>
-
-  <!-- Горловина -->
-  <line x1="150" y1="60" x2="210" y2="60" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
-  <text x="180" y="50" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#999">горловина</text>
-
-  <!-- Легенда -->
-  <line x1="80" y1="295" x2="100" y2="295" stroke="#c44" stroke-width="2"/>
-  <text x="108" y="298" font-family="sans-serif" font-size="9" fill="#555">сшить</text>
-  <line x1="150" y1="295" x2="170" y2="295" stroke="#4a8" stroke-width="2"/>
-  <text x="178" y="298" font-family="sans-serif" font-size="9" fill="#555">сшить</text>
-  <line x1="220" y1="295" x2="240" y2="295" stroke="#e90" stroke-width="2"/>
-  <text x="248" y="298" font-family="sans-serif" font-size="9" fill="#555">не сшивать</text>
-
-  <text x="180" y="25" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#999">Вид сзади — как сшивать</text>
-</svg>
+Пропорции: спинка ≈ 55 см в ширину и 60 см в длину, каждая полочка — половина ширины спинки.
 
 ## Схема узора — платочная вязка
 
-Да, у платочной вязки тоже есть схема — и она красиво простая. Все ряды одинаковые: только лицевые петли. Вот как это выглядит:
+Да, у платочной вязки тоже есть схема — и она красиво простая. Все ряды одинаковые: только лицевые петли. Каждая клеточка — одна лицевая:
 
-<svg viewBox="0 0 300 200" width="100%" style="max-width:340px;display:block;margin:1.5rem 0" xmlns="http://www.w3.org/2000/svg">
-  <!-- Сетка 6 петель × 6 рядов -->
-  <!-- Горизонтальные линии -->
-  <line x1="50" y1="20" x2="194" y2="20" stroke="#ccc" stroke-width="1"/>
-  <line x1="50" y1="44" x2="194" y2="44" stroke="#ccc" stroke-width="1"/>
-  <line x1="50" y1="68" x2="194" y2="68" stroke="#ccc" stroke-width="1"/>
-  <line x1="50" y1="92" x2="194" y2="92" stroke="#ccc" stroke-width="1"/>
-  <line x1="50" y1="116" x2="194" y2="116" stroke="#ccc" stroke-width="1"/>
-  <line x1="50" y1="140" x2="194" y2="140" stroke="#ccc" stroke-width="1"/>
-  <line x1="50" y1="164" x2="194" y2="164" stroke="#ccc" stroke-width="1"/>
-  <!-- Вертикальные линии -->
-  <line x1="50" y1="20" x2="50" y2="164" stroke="#ccc" stroke-width="1"/>
-  <line x1="74" y1="20" x2="74" y2="164" stroke="#ccc" stroke-width="1"/>
-  <line x1="98" y1="20" x2="98" y2="164" stroke="#ccc" stroke-width="1"/>
-  <line x1="122" y1="20" x2="122" y2="164" stroke="#ccc" stroke-width="1"/>
-  <line x1="146" y1="20" x2="146" y2="164" stroke="#ccc" stroke-width="1"/>
-  <line x1="170" y1="20" x2="170" y2="164" stroke="#ccc" stroke-width="1"/>
-  <line x1="194" y1="20" x2="194" y2="164" stroke="#ccc" stroke-width="1"/>
-
-  <!-- Символы — все лицевые □ -->
-  <!-- Ряд 6 (верхний) -->
-  <text x="62" y="39" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="86" y="39" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="110" y="39" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="134" y="39" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="158" y="39" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="182" y="39" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <!-- Ряд 5 -->
-  <text x="62" y="63" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="86" y="63" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="110" y="63" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="134" y="63" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="158" y="63" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="182" y="63" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <!-- Ряд 4 -->
-  <text x="62" y="87" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="86" y="87" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="110" y="87" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="134" y="87" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="158" y="87" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="182" y="87" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <!-- Ряд 3 -->
-  <text x="62" y="111" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="86" y="111" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="110" y="111" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="134" y="111" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="158" y="111" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="182" y="111" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <!-- Ряд 2 -->
-  <text x="62" y="135" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="86" y="135" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="110" y="135" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="134" y="135" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="158" y="135" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="182" y="135" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <!-- Ряд 1 (нижний) -->
-  <text x="62" y="159" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="86" y="159" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="110" y="159" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="134" y="159" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="158" y="159" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="182" y="159" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#333">□</text>
-
-  <!-- Номера рядов слева (снизу вверх) -->
-  <text x="40" y="159" text-anchor="end" font-family="sans-serif" font-size="10" fill="#999">1</text>
-  <text x="40" y="135" text-anchor="end" font-family="sans-serif" font-size="10" fill="#999">2</text>
-  <text x="40" y="111" text-anchor="end" font-family="sans-serif" font-size="10" fill="#999">3</text>
-  <text x="40" y="87" text-anchor="end" font-family="sans-serif" font-size="10" fill="#999">4</text>
-  <text x="40" y="63" text-anchor="end" font-family="sans-serif" font-size="10" fill="#999">5</text>
-  <text x="40" y="39" text-anchor="end" font-family="sans-serif" font-size="10" fill="#999">6</text>
-
-  <!-- Номера петель снизу (справа налево) -->
-  <text x="182" y="180" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#999">1</text>
-  <text x="158" y="180" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#999">2</text>
-  <text x="134" y="180" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#999">3</text>
-  <text x="110" y="180" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#999">4</text>
-  <text x="86" y="180" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#999">5</text>
-  <text x="62" y="180" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#999">6</text>
-
-  <!-- Легенда -->
-  <text x="62" y="198" font-family="sans-serif" font-size="14" fill="#333">□</text>
-  <text x="78" y="198" font-family="sans-serif" font-size="11" fill="#555">— лицевая петля (knit)</text>
+<svg viewBox="0 0 194 234" width="100%" style="max-width:194px;display:block;margin:1.5rem 0" xmlns="http://www.w3.org/2000/svg">
+  <text x="97" y="16" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">Платочная вязка — 6 рядов, 6 петель</text>
+  <line x1="30" y1="30" x2="174" y2="30" stroke="#ccc" stroke-width="0.5"/>
+  <line x1="30" y1="54" x2="174" y2="54" stroke="#ccc" stroke-width="0.5"/>
+  <line x1="30" y1="78" x2="174" y2="78" stroke="#ccc" stroke-width="0.5"/>
+  <line x1="30" y1="102" x2="174" y2="102" stroke="#ccc" stroke-width="0.5"/>
+  <line x1="30" y1="126" x2="174" y2="126" stroke="#ccc" stroke-width="0.5"/>
+  <line x1="30" y1="150" x2="174" y2="150" stroke="#ccc" stroke-width="0.5"/>
+  <line x1="30" y1="174" x2="174" y2="174" stroke="#ccc" stroke-width="0.5"/>
+  <line x1="30" y1="30" x2="30" y2="174" stroke="#ccc" stroke-width="0.5"/>
+  <line x1="54" y1="30" x2="54" y2="174" stroke="#ccc" stroke-width="0.5"/>
+  <line x1="78" y1="30" x2="78" y2="174" stroke="#ccc" stroke-width="0.5"/>
+  <line x1="102" y1="30" x2="102" y2="174" stroke="#ccc" stroke-width="0.5"/>
+  <line x1="126" y1="30" x2="126" y2="174" stroke="#ccc" stroke-width="0.5"/>
+  <line x1="150" y1="30" x2="150" y2="174" stroke="#ccc" stroke-width="0.5"/>
+  <line x1="174" y1="30" x2="174" y2="174" stroke="#ccc" stroke-width="0.5"/>
+  <text x="24" y="46" text-anchor="end" font-family="sans-serif" font-size="9" fill="#999">1</text>
+<rect x="32" y="32" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="56" y="32" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="80" y="32" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="104" y="32" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="128" y="32" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="152" y="32" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+  <text x="24" y="70" text-anchor="end" font-family="sans-serif" font-size="9" fill="#999">2</text>
+<rect x="32" y="56" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="56" y="56" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="80" y="56" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="104" y="56" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="128" y="56" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="152" y="56" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+  <text x="24" y="94" text-anchor="end" font-family="sans-serif" font-size="9" fill="#999">3</text>
+<rect x="32" y="80" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="56" y="80" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="80" y="80" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="104" y="80" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="128" y="80" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="152" y="80" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+  <text x="24" y="118" text-anchor="end" font-family="sans-serif" font-size="9" fill="#999">4</text>
+<rect x="32" y="104" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="56" y="104" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="80" y="104" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="104" y="104" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="128" y="104" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="152" y="104" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+  <text x="24" y="142" text-anchor="end" font-family="sans-serif" font-size="9" fill="#999">5</text>
+<rect x="32" y="128" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="56" y="128" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="80" y="128" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="104" y="128" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="128" y="128" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="152" y="128" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+  <text x="24" y="166" text-anchor="end" font-family="sans-serif" font-size="9" fill="#999">6</text>
+<rect x="32" y="152" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="56" y="152" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="80" y="152" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="104" y="152" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="128" y="152" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+<rect x="152" y="152" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+  <text x="42" y="188" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#999">1</text>
+  <text x="66" y="188" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#999">2</text>
+  <text x="90" y="188" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#999">3</text>
+  <text x="114" y="188" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#999">4</text>
+  <text x="138" y="188" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#999">5</text>
+  <text x="162" y="188" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#999">6</text>
+<rect x="28" y="194" width="20" height="20" fill="none" stroke="#333" stroke-width="0.8"/>
+  <text x="50" y="208" text-anchor="start" font-family="sans-serif" font-size="9" fill="#555">Лицевая петля</text>
 </svg>
 
-Да, вся схема — это одни квадратики. В этом и кайф: каждый ряд вяжешь лицевыми, переворачиваешь, снова лицевыми. Полотно получается плотное, рельефное и не скручивается по краям.
+Вся схема — это одни квадратики. В этом и кайф: каждый ряд вяжешь лицевыми, переворачиваешь, снова лицевыми. Полотно получается плотное, рельефное и не скручивается по краям.
 
 ## Вяжем спинку — самая большая деталь, но и самая тупая
 

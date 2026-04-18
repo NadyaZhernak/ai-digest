@@ -95,7 +95,8 @@ export function renderGarmentLayout(input: GarmentLayoutInput, palette: Color[])
     const badgeY = pieceY + 8;
     const bgColor = hexToLightBg(accentColor);
     parts.push(rect(offsetX, badgeY, badgeW, 24, { fill: bgColor, stroke: accentColor, strokeWidth: 1, rx: 4 }));
-    parts.push(text(offsetX + badgeW / 2, badgeY + 16, `${v.total.count} квадратов`, {
+    const unit = v.total.unit ?? 'квадратов';
+    parts.push(text(offsetX + badgeW / 2, badgeY + 16, `${v.total.count} ${unit}`, {
       anchor: 'middle', size: 10, fill: accentColor, weight: 'bold',
     }));
 

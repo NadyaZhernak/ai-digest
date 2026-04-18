@@ -67,7 +67,7 @@ export interface GarmentVariant {
   name: string;
   color: number | string; // palette index or hex
   pieces: GarmentPiece[];
-  total: { count: number; formula: string };
+  total: { count: number; formula: string; unit?: string }; // unit defaults to "квадратов"
 }
 
 export interface GarmentLayoutInput {
