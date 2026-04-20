@@ -10,7 +10,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "pipeline": "tsx src/scripts/pipeline/index.ts"
+    "pipeline": "tsx src/scripts/pipeline/index.ts",
+    "prepare": "git config core.hooksPath .githooks"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.3",
