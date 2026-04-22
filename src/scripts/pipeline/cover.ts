@@ -1,21 +1,47 @@
 import fs from 'fs';
 import path from 'path';
 
-/** STUB: copies placeholder cover. Will call Replicate API in Step 5. */
-export function generateCoverImage(prompt: string, slug: string): string {
-  console.log(`[STUB] generateCoverImage(slug="${slug}")`);
-  console.log(`[STUB] image prompt: ${prompt}`);
+const MODEL = 'ideogram-ai/ideogram-v3-turbo';
 
-  const assetsDir = path.join(process.cwd(), 'src/assets');
-  const placeholder = path.join(assetsDir, 'placeholder-cover.jpg');
-  const dest = path.join(assetsDir, `${slug}.webp`);
+export async function generateCoverImage(prompt: string, slug: string): Promise<string> {
+  const token = process.env.REPLICATE_API_TOKEN;
+  if (!token) throw new Error('REPLICATE_API_TOKEN is not set');
 
-  if (fs.existsSync(placeholder)) {
-    fs.copyFileSync(placeholder, dest);
-  } else {
-    fs.writeFileSync(dest, '');
-    console.log(`[STUB] No placeholder found, created empty file at ${dest}`);
+  const res = await fetch(`https://api.replicate.com/v1/models/${MODEL}/predictions`, {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${token}`,
+      'Content-Type': 'application/json',
+      Prefer: 'wait',
+    },
+    body: JSON.stringify({
+      input: { prompt, aspect_ratio: '16:9' },
+    }),
+  });
+
+  if (!res.ok) {
+    throw new Error(`Replicate API error ${res.status}: ${await res.text()}`);
   }
 
-  return `src/assets/${slug}.webp`;
+  const data = (await res.json()) as {
+    status?: string;
+    output?: string | string[];
+    error?: string | null;
+  };
+
+  if (data.status !== 'succeeded') {
+    throw new Error(`Replicate prediction ${data.status ?? 'unknown'}: ${data.error ?? ''}`);
+  }
+
+  const imageUrl = Array.isArray(data.output) ? data.output[0] : data.output;
+  if (!imageUrl) throw new Error('Replicate returned no image URL');
+
+  const imageRes = await fetch(imageUrl);
+  if (!imageRes.ok) throw new Error(`Failed to download image: ${imageRes.status}`);
+  const buffer = Buffer.from(await imageRes.arrayBuffer());
+
+  const dest = path.join(process.cwd(), 'src/assets', `${slug}.png`);
+  fs.writeFileSync(dest, buffer);
+
+  return `src/assets/${slug}.png`;
 }

@@ -71,7 +71,7 @@ async function run() {
   // Step 4: Generate cover image
   const slug = slugify(`${selectedTopic.name}-${new Date().toISOString().split('T')[0]}`);
   console.log('\nStep 4: Generating cover image...');
-  const imagePath = generateCoverImage(selectedTopic.image_prompt, slug);
+  const imagePath = await generateCoverImage(selectedTopic.image_prompt, slug);
 
   // Step 5: Build stub article
   console.log('\nStep 5: Building stub article...');
