@@ -3,6 +3,7 @@ title: 'Жилет спицами в 2026: его носят все — от Zen
 description: 'Вязаный жилет — главный слоёный MVP сезона. Разбираемся, какие силуэты на пике, какой цвет носит Vogue и как связать свой так, чтобы не уйти в дедушкин кадр.'
 pubDate: '2026-04-18'
 tags: ['knitting', 'vest', 'trends', '2026']
+heroImage: '../../assets/oversized-vest-knit-trend-2026.png'
 source: 'https://knitseek.com/the-knitted-vest-trend/'
 ---
 

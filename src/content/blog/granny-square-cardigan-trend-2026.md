@@ -3,6 +3,7 @@ title: 'Бабушкин квадрат в 2026: почему все снова 
 description: 'Granny square кардиган — тренд, который не уходит уже третий сезон. Разбираемся, почему, и как связать свой так, чтобы он выглядел на 2026, а не на 1975.'
 pubDate: '2026-04-16'
 tags: ['crochet', 'cardigan', 'granny-square', 'trends', '2026']
+heroImage: '../../assets/granny-square-cardigan.png'
 source: 'https://zeensandroger.com/2026/01/20/crochet-trends-for-2026/'
 ---
 
