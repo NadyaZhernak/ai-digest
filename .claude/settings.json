@@ -1,4 +1,16 @@
 {
+    "permissions": {
+        "allow": [
+            "Bash(git add *)",
+            "Bash(git commit *)",
+            "Bash(git push *)",
+            "Write(content/**)",
+            "Write(public/covers/**)",
+            "Edit(content/**)",
+            "mcp__tavily__*",
+            "mcp__replicate__*"
+        ]
+    },
     "hooks": {
         "PostToolUse": [
             {
