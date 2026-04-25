@@ -1,5 +1,5 @@
 ---
-title: 3D Crochet Sculptures
+title: 'Вязаная скульптура: как создавать объёмные фигуры крючком'
 description: Как создавать объёмные фигуры крючком. Техники шапирования, пропорции, примеры потрясающих 3D-проектов, которые выглядят как скульптура.
 pubDate: 2026-04-26
 tags: [crochet, sculpture, 3d, techniques, shaping]
@@ -7,6 +7,44 @@ heroImage: ../../assets/2026-04-26-3d-crochet-sculptures.png
 ---
 
 Забудь о плоских амигуруми. Современные вязальщики создают что-то совсем другое — объёмные скульптуры, которые выглядят как произведения искусства. Человеческие фигуры с выраженной анатомией, животные с реалистичными пропорциями, абстрактные формы, которые вращаются в руках и приводят в восторг. И вот секрет: это не так сложно, как кажется.
+
+<svg viewBox="0 0 390 220" width="100%" style="max-width:440px;display:block;margin:1.5rem 0" xmlns="http://www.w3.org/2000/svg">
+  <!-- Шар через увеличение -->
+  <text x="100" y="20" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">Шар: увеличения</text>
+  
+  <circle cx="50" cy="70" r="8" fill="none" stroke="#999" stroke-width="1"/>
+  <text x="50" y="75" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">6п</text>
+  
+  <circle cx="80" cy="70" r="15" fill="none" stroke="#666" stroke-width="1"/>
+  <text x="80" y="75" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">12п</text>
+  
+  <circle cx="110" cy="70" r="22" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="110" y="75" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#333">24п</text>
+  
+  <path d="M 50 80 L 80 80 M 80 80 L 110 80" stroke="#999" stroke-width="1" stroke-dasharray="2,2"/>
+
+  <!-- Конус через уменьшение -->
+  <text x="280" y="20" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">Конус: уменьшения</text>
+  
+  <polygon points="280,110 250,40 310,40" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="280" y="75" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#333">24п → 2п</text>
+
+  <!-- Цилиндр для туловища -->
+  <text x="195" y="150" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">Техники комбинируются для создания формы</text>
+  
+  <rect x="50" y="170" width="30" height="40" fill="none" stroke="#999" stroke-width="1"/>
+  <text x="65" y="195" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#666">Ноги</text>
+  
+  <rect x="95" y="160" width="40" height="50" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="115" y="190" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#333">Туловище</text>
+  
+  <circle cx="180" cy="165" r="10" fill="none" stroke="#666" stroke-width="1.5"/>
+  <text x="180" y="170" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#666">Голова</text>
+  
+  <line x1="160" y1="180" x2="120" y2="200" stroke="#999" stroke-width="1"/>
+  <line x1="200" y1="180" x2="240" y2="200" stroke="#999" stroke-width="1"/>
+  <text x="140" y="215" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#666">Руки</text>
+</svg>
 
 ## Основы 3D-шапирования
 

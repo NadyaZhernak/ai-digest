@@ -1,5 +1,5 @@
 ---
-title: Organic Cotton Revolution
+title: 'Революция органического хлопка: чем он лучше и как выбрать'
 description: Как органический хлопок переворачивает рынок пряжи — стандарты, экология, выбор правильной пряжи для своих проектов.
 pubDate: 2026-04-26
 tags: [yarn, organic, sustainability, cotton, crafting]
@@ -7,6 +7,31 @@ heroImage: ../../assets/2026-04-26-organic-cotton-revolution.png
 ---
 
 Помнишь, когда выбор пряжи казался простым? Теперь же все больше вязальщиков смотрят не только на цену и цвет, но и на то, как пряжа выращивается и обрабатывается. И не зря — органический хлопок становится королем рынка.
+
+<svg viewBox="0 0 390 240" width="100%" style="max-width:440px;display:block;margin:1.5rem 0" xmlns="http://www.w3.org/2000/svg">
+  <rect x="20" y="20" width="110" height="90" fill="#f0f8ff" stroke="#333" stroke-width="2" rx="4"/>
+  <text x="75" y="50" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">GOTS</text>
+  <text x="75" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">Полная</text>
+  <text x="75" y="82" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">проверка</text>
+  <circle cx="75" cy="110" r="6" fill="#2ecc71"/>
+
+  <rect x="150" y="20" width="110" height="90" fill="#fff8f0" stroke="#333" stroke-width="2" rx="4"/>
+  <text x="205" y="50" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">OEKO-TEX</text>
+  <text x="205" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">Без вредных</text>
+  <text x="205" y="82" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">веществ</text>
+  <circle cx="205" cy="110" r="6" fill="#2ecc71"/>
+
+  <rect x="280" y="20" width="110" height="90" fill="#f8f0ff" stroke="#333" stroke-width="2" rx="4"/>
+  <text x="335" y="50" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">ICEA</text>
+  <text x="335" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">Итальянский</text>
+  <text x="335" y="82" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">стандарт</text>
+  <circle cx="335" cy="110" r="6" fill="#2ecc71"/>
+
+  <text x="195" y="175" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#333">Стандарты сертификации органического хлопка</text>
+  <rect x="40" y="190" width="320" height="40" fill="#f0f0f0" stroke="#999" stroke-width="1" rx="2"/>
+  <text x="200" y="205" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">✓ Проверяй этикетку перед покупкой</text>
+  <text x="200" y="220" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">✓ Если нет стандарта — красный флаг</text>
+</svg>
 
 ## Почему органический хлопок правит балом
 
