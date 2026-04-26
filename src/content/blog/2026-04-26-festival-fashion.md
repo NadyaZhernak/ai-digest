@@ -8,48 +8,18 @@ heroImage: ../../assets/2026-04-26-festival-fashion.png
 
 Фестивальный сезон — это не просто музыка и веселье. Это неписанное соревнование в стиле. И пока большинство ходит в обычной одежде, ты можешь прийти в чем-то уникальном, сделанном своими руками. Вязаные вещи для фестиваля — это боди-арт в стиле.
 
-<svg viewBox="0 0 390 240" width="100%" style="max-width:440px;display:block;margin:1.5rem 0" xmlns="http://www.w3.org/2000/svg">
-  <!-- Beach Fairy -->
-  <circle cx="60" cy="50" r="12" fill="#e6f3ff" stroke="#333" stroke-width="1.5"/>
-  <rect x="40" y="65" width="40" height="50" fill="none" stroke="#c2c2ff" stroke-width="2" stroke-dasharray="3,3"/>
-  <text x="60" y="100" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#333">Beach Fairy</text>
-  <text x="60" y="115" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#666">Пастель + джинсы</text>
-
-  <!-- Boho Luxe -->
-  <circle cx="195" cy="50" r="12" fill="#ffe6e6" stroke="#333" stroke-width="1.5"/>
-  <rect x="175" y="65" width="40" height="50" fill="none" stroke="#d2a679" stroke-width="2"/>
-  <text x="195" y="100" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#333">Boho Luxe</text>
-  <text x="195" y="115" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#666">Сетка + макраме</text>
-
-  <!-- Edgy Minimal -->
-  <circle cx="330" cy="50" r="12" fill="#f0f0f0" stroke="#333" stroke-width="1.5"/>
-  <rect x="310" y="65" width="40" height="50" fill="none" stroke="#333" stroke-width="2"/>
-  <text x="330" y="100" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#333">Edgy Minimal</text>
-  <text x="330" y="115" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#666">Чёрный топ + белое</text>
-
-  <!-- Свойства вязания для фестиваля -->
-  <line x1="30" y1="140" x2="360" y2="140" stroke="#ddd" stroke-width="1"/>
-  
-  <g>
-    <rect x="30" y="155" width="100" height="65" fill="#f9f9f9" stroke="#999" stroke-width="1" rx="3"/>
-    <text x="80" y="170" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#333">Материал</text>
-    <text x="80" y="188" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">Лён, хлопок,</text>
-    <text x="80" y="202" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">легкие смеси</text>
-  </g>
-
-  <g>
-    <rect x="145" y="155" width="100" height="65" fill="#f9f9f9" stroke="#999" stroke-width="1" rx="3"/>
-    <text x="195" y="170" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#333">Плотность</text>
-    <text x="195" y="188" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">Рыхлое вязание,</text>
-    <text x="195" y="202" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">кружево, отверстия</text>
-  </g>
-
-  <g>
-    <rect x="260" y="155" width="100" height="65" fill="#f9f9f9" stroke="#999" stroke-width="1" rx="3"/>
-    <text x="310" y="170" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#333">Посадка</text>
-    <text x="310" y="188" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">Облегающая,</text>
-    <text x="310" y="202" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">без мешковатости</text>
-  </g>
+<svg width="100%" viewBox="0 0 420 80" xmlns="http://www.w3.org/2000/svg" style="max-width:420px;display:block;margin:1.5rem 0">
+  <text x="210" y="14" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#999">Палитра фестивального стиля</text>
+  <rect x="10" y="24" width="65" height="40" fill="#ADD8E6" rx="6"/>
+  <text x="42.5" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#555">Нежно-голубой</text>
+  <rect x="85" y="24" width="65" height="40" fill="#FFFDD0" rx="6" stroke="#ddd" stroke-width="1"/>
+  <text x="117.5" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#555">Кремовый</text>
+  <rect x="160" y="24" width="65" height="40" fill="#98FF98" rx="6"/>
+  <text x="192.5" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#555">Мятный</text>
+  <rect x="235" y="24" width="65" height="40" fill="#FFD700" rx="6"/>
+  <text x="267.5" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#333">Золото</text>
+  <rect x="310" y="24" width="65" height="40" fill="#000000" rx="6"/>
+  <text x="342.5" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="white">Чёрный</text>
 </svg>
 
 ## Идеальный фестивальный вязаный наряд: что нужно учесть

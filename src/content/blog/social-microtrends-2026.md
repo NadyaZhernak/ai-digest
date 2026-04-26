@@ -3,6 +3,7 @@ title: '#QuietLuxury и granny squares: 4 тренда, которые виру�
 description: 'Что вяжут и постят в TikTok и Pinterest прямо сейчас — четыре микро-тренда, один из которых точно тебя зацепит.'
 pubDate: '2026-04-08'
 tags: ['trends', 'pinterest', 'tiktok', 'microtrends', 'social']
+heroImage: '../../assets/social-microtrends-2026.png'
 ---
 
 Соцсети — это не только котики и рецепты. Там уже несколько лет живёт очень активное вязальное сообщество, которое регулярно что-то придумывает, называет, хайпует и потом забывает. Но некоторые тренды задерживаются — вот они.
@@ -30,33 +31,6 @@ tags: ['trends', 'pinterest', 'tiktok', 'microtrends', 'social']
 Техника починки одежды так, чтобы швы и заплатки были видны и выглядели как декор. Пришла из японского wabi-sabi, но сейчас активно вирусится в TikTok именно в сочетании с вязанием: зашить дырку контрастной пряжей, добавить декоративный шов крест-накрест. Выглядит как будто так и задумано.
 
 **Для кого:** для тех, у кого есть любимая вещь с дыркой и руки, которые умеют держать иголку.
-
-<svg width="100%" viewBox="0 0 356 300" xmlns="http://www.w3.org/2000/svg" style="max-width:380px;display:block;margin:1.5rem 0">
-  <rect x="8" y="8" width="160" height="130" rx="8" fill="#f5f0eb" stroke="#eee" stroke-width="1"/>
-  <rect x="100" y="14" width="62" height="20" rx="4" fill="#ff0050"/>
-  <text x="131" y="28" text-anchor="middle" font-family="sans-serif" font-size="9" fill="white" font-weight="bold">TikTok</text>
-  <text x="88" y="75" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">Quiet Luxury</text>
-  <text x="88" y="91" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">Knits</text>
-  <text x="88" y="115" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#aaa">#quietluxury</text>
-  <rect x="184" y="8" width="160" height="130" rx="8" fill="#fff0f0" stroke="#eee" stroke-width="1"/>
-  <rect x="276" y="14" width="62" height="20" rx="4" fill="#e60023"/>
-  <text x="307" y="28" text-anchor="middle" font-family="sans-serif" font-size="9" fill="white" font-weight="bold">Pinterest</text>
-  <text x="264" y="75" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">Granny Square</text>
-  <text x="264" y="91" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">Everything</text>
-  <text x="264" y="115" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#aaa">#grannysquare</text>
-  <rect x="8" y="154" width="160" height="130" rx="8" fill="#f0f5ee" stroke="#eee" stroke-width="1"/>
-  <rect x="100" y="160" width="62" height="20" rx="4" fill="#e60023"/>
-  <text x="131" y="174" text-anchor="middle" font-family="sans-serif" font-size="9" fill="white" font-weight="bold">Pinterest</text>
-  <text x="88" y="221" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">Cottagecore</text>
-  <text x="88" y="237" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">Crochet</text>
-  <text x="88" y="261" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#aaa">#cottagecore</text>
-  <rect x="184" y="154" width="160" height="130" rx="8" fill="#f0f0f8" stroke="#eee" stroke-width="1"/>
-  <rect x="276" y="160" width="62" height="20" rx="4" fill="#ff0050"/>
-  <text x="307" y="174" text-anchor="middle" font-family="sans-serif" font-size="9" fill="white" font-weight="bold">TikTok</text>
-  <text x="264" y="221" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">Visible</text>
-  <text x="264" y="237" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">Mending</text>
-  <text x="264" y="261" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#aaa">#visiblemending</text>
-</svg>
 
 ## Как повторить прямо сейчас
 

@@ -3,32 +3,23 @@ title: 'Осень 2026: что будем вязать и от чего пор�
 description: 'Прогноз трендов вязания на осень-зиму 2026 — жаккард, объёмные текстуры, тёплые тона. И честно: что уже уходит.'
 pubDate: '2026-04-08'
 tags: ['trends', 'forecast', 'autumn', 'winter', 'jacquard']
+heroImage: '../../assets/forecast-aw2026.png'
 ---
 
 До осени ещё несколько месяцев, но пряжу под сезонные проекты обычно начинают закупать заранее. Плюс некоторые техники надо успеть освоить — жаккард, например, с нуля за выходные не поднимешь. Так что — смотрим что будет актуально, без лишних церемоний.
 
-<svg width="100%" viewBox="0 0 520 262" xmlns="http://www.w3.org/2000/svg" style="max-width:520px;display:block;margin:1.5rem 0">
-  <rect x="10" y="10" width="220" height="38" rx="6" fill="#f0f0f0"/>
-  <text x="120" y="34" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#aaa">Уходит</text>
-  <text x="258" y="34" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#ccc">→</text>
-  <rect x="292" y="10" width="220" height="38" rx="6" fill="#eef0ff"/>
-  <text x="402" y="34" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#5566bb">Приходит</text>
-  <rect x="10" y="60" width="220" height="34" rx="4" fill="#f7f7f7" stroke="#e8e8e8" stroke-width="1"/>
-  <text x="120" y="82" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#bbb">Бесформенный оверсайз</text>
-  <rect x="10" y="102" width="220" height="34" rx="4" fill="#f7f7f7" stroke="#e8e8e8" stroke-width="1"/>
-  <text x="120" y="124" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#bbb">Тотал-монохром</text>
-  <rect x="10" y="144" width="220" height="34" rx="4" fill="#f7f7f7" stroke="#e8e8e8" stroke-width="1"/>
-  <text x="120" y="166" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#bbb">Холодные серые тона</text>
-  <rect x="10" y="186" width="220" height="34" rx="4" fill="#f7f7f7" stroke="#e8e8e8" stroke-width="1"/>
-  <text x="120" y="208" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#bbb">Гладкое полотно без фактуры</text>
-  <rect x="292" y="60" width="220" height="34" rx="4" fill="#eef0ff" stroke="#d4d8f0" stroke-width="1"/>
-  <text x="402" y="82" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#445">Геометрический жаккард</text>
-  <rect x="292" y="102" width="220" height="34" rx="4" fill="#eef0ff" stroke="#d4d8f0" stroke-width="1"/>
-  <text x="402" y="124" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#445">Цветовые блоки и колор-блокинг</text>
-  <rect x="292" y="144" width="220" height="34" rx="4" fill="#eef0ff" stroke="#d4d8f0" stroke-width="1"/>
-  <text x="402" y="166" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#445">Тёплые земляные тона</text>
-  <rect x="292" y="186" width="220" height="34" rx="4" fill="#eef0ff" stroke="#d4d8f0" stroke-width="1"/>
-  <text x="402" y="208" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#445">Объёмные рельефные фактуры</text>
+<svg width="100%" viewBox="0 0 420 80" xmlns="http://www.w3.org/2000/svg" style="max-width:420px;display:block;margin:1.5rem 0">
+  <text x="210" y="14" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#999">Палитра сезона 2026 — земляные тона</text>
+  <rect x="10" y="24" width="70" height="40" fill="#A0522D" rx="6"/>
+  <text x="45" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#555">Ржавый</text>
+  <rect x="90" y="24" width="70" height="40" fill="#B8860B" rx="6"/>
+  <text x="125" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#555">Охра</text>
+  <rect x="170" y="24" width="70" height="40" fill="#DAA520" rx="6"/>
+  <text x="205" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#555">Горчица</text>
+  <rect x="250" y="24" width="70" height="40" fill="#8B4513" rx="6"/>
+  <text x="285" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="white">Коричневый</text>
+  <rect x="330" y="24" width="70" height="40" fill="#8B4513" rx="6" opacity="0.8"/>
+  <text x="365" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="white">Жжёная умбра</text>
 </svg>
 
 ## Что приходит

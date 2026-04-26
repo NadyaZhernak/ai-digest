@@ -8,49 +8,43 @@ heroImage: ../../assets/2026-04-26-viral-color-combos.png
 
 Если ты еще не заметил, TikTok диктует правила цвета. Каждый месяц новая комбинация становится вирусной, и вязальщики сходят с ума, пытаясь воплотить её в пряже. Забудь о классических палитрах — на дворе эра смелых контрастов и неожиданных гармоний.
 
-<svg viewBox="0 0 390 260" width="100%" style="max-width:440px;display:block;margin:1.5rem 0" xmlns="http://www.w3.org/2000/svg">
-  <!-- Coquette Pink + Chocolate Brown -->
-  <g>
-    <text x="80" y="20" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#333">Coquette Pink + Brown</text>
-    <rect x="30" y="30" width="30" height="40" fill="#e896a1" stroke="#333" stroke-width="1"/>
-    <rect x="70" y="30" width="30" height="40" fill="#6b4423" stroke="#333" stroke-width="1"/>
-    <text x="80" y="85" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#666">Сладкое встречает</text>
-    <text x="80" y="97" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#666">горькое</text>
-  </g>
+<!-- SVG 1: Color Palette -->
+<svg viewBox="0 0 475 85" width="100%" style="max-width:460px;display:block;margin:1.5rem 0" xmlns="http://www.w3.org/2000/svg">
+  <text x="237" y="18" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#999">Сезонная палитра вирусных цветов</text>
+  
+  <!-- Coquette Pink -->
+  <rect x="10" y="28" width="75" height="40" fill="#e896a1" stroke="#ddd" stroke-width="1" rx="6"/>
+  <text x="47.5" y="75" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#555">Coquette</text>
+  
+  <!-- Chocolate Brown -->
+  <rect x="100" y="28" width="75" height="40" fill="#6b4423" stroke="#ddd" stroke-width="1" rx="6"/>
+  <text x="137.5" y="75" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#555">Chocolate</text>
+  
+  <!-- Sage Green -->
+  <rect x="190" y="28" width="75" height="40" fill="#9cad7a" stroke="#ddd" stroke-width="1" rx="6"/>
+  <text x="227.5" y="75" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#555">Sage</text>
+  
+  <!-- Cream -->
+  <rect x="280" y="28" width="75" height="40" fill="#f5f0e8" stroke="#ddd" stroke-width="1" rx="6"/>
+  <text x="317.5" y="75" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#555">Cream</text>
+  
+  <!-- Rust -->
+  <rect x="370" y="28" width="75" height="40" fill="#c85a17" stroke="#ddd" stroke-width="1" rx="6"/>
+  <text x="407.5" y="75" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#555">Rust</text>
+</svg>
 
-  <!-- Sage Green + Cream + Rust -->
-  <g>
-    <text x="250" y="20" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#333">Sage + Cream + Rust</text>
-    <rect x="200" y="30" width="20" height="40" fill="#9cad7a" stroke="#333" stroke-width="1"/>
-    <rect x="225" y="30" width="20" height="40" fill="#f5f0e8" stroke="#333" stroke-width="1"/>
-    <rect x="250" y="30" width="20" height="40" fill="#c85a17" stroke="#333" stroke-width="1"/>
-    <text x="250" y="85" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#666">Старая</text>
-    <text x="250" y="97" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#666">фотография</text>
-  </g>
-
-  <!-- Deep Plum + Gold + Black -->
-  <g>
-    <text x="80" y="140" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#333">Plum + Gold + Black</text>
-    <rect x="30" y="150" width="20" height="40" fill="#461340" stroke="#333" stroke-width="1"/>
-    <rect x="55" y="150" width="20" height="40" fill="#d4a574" stroke="#333" stroke-width="1"/>
-    <rect x="80" y="150" width="20" height="40" fill="#000" stroke="#333" stroke-width="1"/>
-    <text x="80" y="205" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#666">Роскошь</text>
-    <text x="80" y="217" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#666">и театр</text>
-  </g>
-
-  <!-- Butter Yellow + Blue + Mint -->
-  <g>
-    <text x="250" y="140" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#333">Yellow + Blue + Mint</text>
-    <rect x="200" y="150" width="20" height="40" fill="#ffd89b" stroke="#333" stroke-width="1"/>
-    <rect x="225" y="150" width="20" height="40" fill="#a8d8ea" stroke="#333" stroke-width="1"/>
-    <rect x="250" y="150" width="20" height="40" fill="#b5f5e1" stroke="#333" stroke-width="1"/>
-    <text x="250" y="205" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#666">Пастель с</text>
-    <text x="250" y="217" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#666">характером</text>
-  </g>
-
-  <!-- Правило 60-30-10 -->
-  <line x1="30" y1="240" x2="360" y2="240" stroke="#ddd" stroke-width="1"/>
-  <text x="195" y="260" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">Правило 60-30-10: 60% основной цвет, 30% дополнительный, 10% акцент</text>
+<!-- SVG 2: Color Combinations -->
+<svg viewBox="0 0 360 100" width="100%" style="max-width:360px;display:block;margin:1.5rem 0" xmlns="http://www.w3.org/2000/svg">
+  <!-- Combination 1: Coquette + Brown -->
+  <text x="15" y="25" font-family="sans-serif" font-size="10" fill="#333">Сладкое + горькое</text>
+  <rect x="180" y="10" width="65" height="30" fill="#e896a1" stroke="#ddd" stroke-width="1" rx="4"/>
+  <rect x="255" y="10" width="65" height="30" fill="#6b4423" stroke="#ddd" stroke-width="1" rx="4"/>
+  
+  <!-- Combination 2: Sage + Cream + Rust -->
+  <text x="15" y="75" font-family="sans-serif" font-size="10" fill="#333">Старая фотография</text>
+  <rect x="180" y="60" width="45" height="30" fill="#9cad7a" stroke="#ddd" stroke-width="1" rx="4"/>
+  <rect x="235" y="60" width="45" height="30" fill="#f5f0e8" stroke="#ddd" stroke-width="1" rx="4"/>
+  <rect x="290" y="60" width="45" height="30" fill="#c85a17" stroke="#ddd" stroke-width="1" rx="4"/>
 </svg>
 
 ## Что вирусит прямо сейчас

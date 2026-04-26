@@ -8,29 +8,64 @@ heroImage: ../../assets/2026-04-26-organic-cotton-revolution.png
 
 Помнишь, когда выбор пряжи казался простым? Теперь же все больше вязальщиков смотрят не только на цену и цвет, но и на то, как пряжа выращивается и обрабатывается. И не зря — органический хлопок становится королем рынка.
 
-<svg viewBox="0 0 390 240" width="100%" style="max-width:440px;display:block;margin:1.5rem 0" xmlns="http://www.w3.org/2000/svg">
-  <rect x="20" y="20" width="110" height="90" fill="#f0f8ff" stroke="#333" stroke-width="2" rx="4"/>
-  <text x="75" y="50" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">GOTS</text>
-  <text x="75" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">Полная</text>
-  <text x="75" y="82" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">проверка</text>
-  <circle cx="75" cy="110" r="6" fill="#2ecc71"/>
+<svg viewBox="0 0 580 230" width="100%" style="max-width:560px;display:block;margin:1.5rem 0" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="card1-clip">
+      <rect x="15" y="15" width="165" height="200" rx="8"/>
+    </clipPath>
+    <clipPath id="card2-clip">
+      <rect x="205" y="15" width="165" height="200" rx="8"/>
+    </clipPath>
+    <clipPath id="card3-clip">
+      <rect x="395" y="15" width="165" height="200" rx="8"/>
+    </clipPath>
+  </defs>
 
-  <rect x="150" y="20" width="110" height="90" fill="#fff8f0" stroke="#333" stroke-width="2" rx="4"/>
-  <text x="205" y="50" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">OEKO-TEX</text>
-  <text x="205" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">Без вредных</text>
-  <text x="205" y="82" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">веществ</text>
-  <circle cx="205" cy="110" r="6" fill="#2ecc71"/>
+  <!-- Card 1: Organic Cotton Pima -->
+  <rect x="15" y="15" width="165" height="200" fill="white" stroke="#e0e0e0" stroke-width="2" rx="8"/>
+  <g clip-path="url(#card1-clip)">
+    <rect x="15" y="15" width="165" height="105" fill="#f5f1e8"/>
+    <path d="M 15 30 Q 50 25 97.5 35 T 180 40" stroke="#c9a876" stroke-width="2" fill="none" opacity="0.8"/>
+    <path d="M 15 45 Q 50 40 97.5 50 T 180 55" stroke="#d4b896" stroke-width="2" fill="none" opacity="0.75"/>
+    <path d="M 15 60 Q 50 55 97.5 65 T 180 70" stroke="#c9a876" stroke-width="2" fill="none" opacity="0.85"/>
+    <path d="M 15 75 Q 50 70 97.5 80 T 180 85" stroke="#dcc4a0" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M 15 90 Q 50 85 97.5 95 T 180 100" stroke="#d4b896" stroke-width="2" fill="none" opacity="0.8"/>
+    <path d="M 15 105 Q 50 100 97.5 110 T 180 115" stroke="#c9a876" stroke-width="2" fill="none" opacity="0.75"/>
+  </g>
+  <text x="97.5" y="140" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">Organic Pima</text>
+  <text x="97.5" y="155" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">100% орг. хлопок</text>
+  <text x="97.5" y="168" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">350м / 100г</text>
+  <text x="97.5" y="182" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#aaa" font-style="italic">гладкая</text>
 
-  <rect x="280" y="20" width="110" height="90" fill="#f8f0ff" stroke="#333" stroke-width="2" rx="4"/>
-  <text x="335" y="50" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">ICEA</text>
-  <text x="335" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">Итальянский</text>
-  <text x="335" y="82" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">стандарт</text>
-  <circle cx="335" cy="110" r="6" fill="#2ecc71"/>
+  <!-- Card 2: Organic Cotton-Linen Blend -->
+  <rect x="205" y="15" width="165" height="200" fill="white" stroke="#e0e0e0" stroke-width="2" rx="8"/>
+  <g clip-path="url(#card2-clip)">
+    <rect x="205" y="15" width="165" height="105" fill="#ede9e4"/>
+    <path d="M 205 30 Q 240 28 287.5 35 T 370 38" stroke="#a89575" stroke-width="2" fill="none" opacity="0.8"/>
+    <path d="M 205 45 Q 240 43 287.5 50 T 370 53" stroke="#b8a589" stroke-width="2" fill="none" opacity="0.75"/>
+    <path d="M 205 60 Q 240 58 287.5 65 T 370 68" stroke="#a89575" stroke-width="2" fill="none" opacity="0.85"/>
+    <path d="M 205 75 Q 240 73 287.5 80 T 370 83" stroke="#c4b39f" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M 205 90 Q 240 88 287.5 95 T 370 98" stroke="#b8a589" stroke-width="2" fill="none" opacity="0.8"/>
+  </g>
+  <text x="287.5" y="140" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">Cotton-Linen</text>
+  <text x="287.5" y="155" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">55% хлопок / 45% лён</text>
+  <text x="287.5" y="168" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">280м / 100г</text>
+  <text x="287.5" y="182" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#aaa" font-style="italic">текстурная</text>
 
-  <text x="195" y="175" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#333">Стандарты сертификации органического хлопка</text>
-  <rect x="40" y="190" width="320" height="40" fill="#f0f0f0" stroke="#999" stroke-width="1" rx="2"/>
-  <text x="200" y="205" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">✓ Проверяй этикетку перед покупкой</text>
-  <text x="200" y="220" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">✓ Если нет стандарта — красный флаг</text>
+  <!-- Card 3: Organic Cotton-Silk Blend -->
+  <rect x="395" y="15" width="165" height="200" fill="white" stroke="#e0e0e0" stroke-width="2" rx="8"/>
+  <g clip-path="url(#card3-clip)">
+    <rect x="395" y="15" width="165" height="105" fill="#f0e8e0"/>
+    <path d="M 395 32 Q 430 28 477.5 36 T 560 42" stroke="#d4a574" stroke-width="2" fill="none" opacity="0.8"/>
+    <path d="M 395 48 Q 430 44 477.5 52 T 560 58" stroke="#e8c4a0" stroke-width="2" fill="none" opacity="0.75"/>
+    <path d="M 395 64 Q 430 60 477.5 68 T 560 74" stroke="#d4a574" stroke-width="2" fill="none" opacity="0.85"/>
+    <path d="M 395 80 Q 430 76 477.5 84 T 560 90" stroke="#dcc0ac" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M 395 96 Q 430 92 477.5 100 T 560 106" stroke="#e8c4a0" stroke-width="2" fill="none" opacity="0.8"/>
+  </g>
+  <text x="477.5" y="140" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">Cotton-Silk</text>
+  <text x="477.5" y="155" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">70% хлопок / 30% шёлк</text>
+  <text x="477.5" y="168" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">320м / 100g</text>
+  <text x="477.5" y="182" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#aaa" font-style="italic">блеск</text>
 </svg>
 
 ## Почему органический хлопок правит балом

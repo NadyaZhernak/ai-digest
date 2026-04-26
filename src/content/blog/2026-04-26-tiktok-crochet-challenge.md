@@ -8,33 +8,6 @@ heroImage: ../../assets/2026-04-26-tiktok-crochet-challenge.png
 
 TikTok превратился в стадион для вязальщиков. Сотни миллионов просмотров, тысячи челленджей, вирусные техники — это больше не просто хобби, это движение. И если ты еще не прыгнул на волну, самое время начать.
 
-<svg viewBox="0 0 390 180" width="100%" style="max-width:440px;display:block;margin:1.5rem 0" xmlns="http://www.w3.org/2000/svg">
-  <rect x="30" y="20" width="100" height="70" fill="#fff3e0" stroke="#333" stroke-width="2" rx="4"/>
-  <text x="80" y="45" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#333">Granny Square</text>
-  <text x="80" y="62" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">Speed Challenge</text>
-  <path d="M 30 90 L 130 90" stroke="#ff6b6b" stroke-width="3" marker-end="url(#arrowhead)"/>
-  <text x="80" y="110" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#ff6b6b">50M просмотров</text>
-
-  <rect x="160" y="20" width="100" height="70" fill="#e8f5e9" stroke="#333" stroke-width="2" rx="4"/>
-  <text x="210" y="45" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#333">Forbidden</text>
-  <text x="210" y="62" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">Yarn Challenge</text>
-  <path d="M 260 90 L 360 90" stroke="#ff6b6b" stroke-width="3" marker-end="url(#arrowhead)"/>
-  <text x="310" y="110" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#ff6b6b">Viral тренд</text>
-
-  <rect x="290" y="20" width="80" height="70" fill="#f3e5f5" stroke="#333" stroke-width="2" rx="4"/>
-  <text x="330" y="45" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#333">One Hour</text>
-  <text x="330" y="62" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">Crochet</text>
-
-  <defs>
-    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-      <polygon points="0 0, 10 3, 0 6" fill="#ff6b6b"/>
-    </marker>
-  </defs>
-
-  <line x1="30" y1="150" x2="360" y2="150" stroke="#ddd" stroke-width="1"/>
-  <text x="195" y="170" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333">Каждый месяц появляются новые челленджи</text>
-</svg>
-
 ## Какие челленджи правят сейчас
 
 **"Granny Square Speed Challenge"** — кто быстрее свяжет идеальный квадрат? Челлендж популяризировал технику, которая казалась скучной, и теперь все хотят улучшить свою скорость. Люди снимают видео в режиме Time Lapse, музыка нарастает, и вот уже 50 миллионов просмотров. Это настолько затягивает, что смотришь и подсознательно уже считаешь: "А у меня получится быстрее?"

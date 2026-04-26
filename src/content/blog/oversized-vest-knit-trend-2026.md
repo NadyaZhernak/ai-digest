@@ -39,44 +39,6 @@ Vogue пишет: насыщенный Klein Blue «тихо набирает о
 
 Выбор длины — это выбор настроения. Cropped — молодёжный, требует высокой талии и смелости. Oversized grandpa — самый лояльный к фигуре и погоде. Longline-дастер — для тех, кто любит драматизм и готов потратить больше пряжи.
 
-<svg viewBox="0 0 480 260" width="100%" style="max-width:480px;display:block;margin:1.5rem 0" xmlns="http://www.w3.org/2000/svg">
-  <text x="240" y="16" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#333">Три силуэта сезона</text>
-
-  <!-- Cropped -->
-  <rect x="40" y="50" width="80" height="80" rx="3" stroke="#1E3A8A" fill="#E8EEF6" stroke-width="2"/>
-  <line x1="40" y1="50" x2="60" y2="50" stroke="#1E3A8A" stroke-width="3"/>
-  <line x1="100" y1="50" x2="120" y2="50" stroke="#1E3A8A" stroke-width="3"/>
-  <line x1="40" y1="50" x2="40" y2="75" stroke="#D4A843" stroke-width="3"/>
-  <line x1="120" y1="50" x2="120" y2="75" stroke="#D4A843" stroke-width="3"/>
-  <text x="80" y="96" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1E3A8A">Cropped</text>
-  <text x="80" y="148" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">≈ 40 см</text>
-  <text x="80" y="162" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">Gen Z, высокая талия</text>
-
-  <!-- Oversized Grandpa -->
-  <rect x="180" y="50" width="110" height="130" rx="3" stroke="#C26B4A" fill="#F8EBE4" stroke-width="2"/>
-  <line x1="180" y1="50" x2="208" y2="50" stroke="#C26B4A" stroke-width="3"/>
-  <line x1="262" y1="50" x2="290" y2="50" stroke="#C26B4A" stroke-width="3"/>
-  <line x1="180" y1="50" x2="180" y2="85" stroke="#D4A843" stroke-width="3"/>
-  <line x1="290" y1="50" x2="290" y2="85" stroke="#D4A843" stroke-width="3"/>
-  <text x="235" y="120" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#C26B4A">Oversized</text>
-  <text x="235" y="135" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#C26B4A">Grandpa</text>
-  <text x="235" y="198" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">≈ 60 см</text>
-  <text x="235" y="212" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">Slouchy, дружелюбный</text>
-
-  <!-- Longline -->
-  <rect x="350" y="50" width="90" height="180" rx="3" stroke="#2F5D3A" fill="#E8EDE7" stroke-width="2"/>
-  <line x1="350" y1="50" x2="372" y2="50" stroke="#2F5D3A" stroke-width="3"/>
-  <line x1="418" y1="50" x2="440" y2="50" stroke="#2F5D3A" stroke-width="3"/>
-  <line x1="350" y1="50" x2="350" y2="80" stroke="#D4A843" stroke-width="3"/>
-  <line x1="440" y1="50" x2="440" y2="80" stroke="#D4A843" stroke-width="3"/>
-  <text x="395" y="145" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#2F5D3A">Longline</text>
-  <text x="395" y="248" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#666">≈ 90 см</text>
-
-  <!-- Легенда -->
-  <line x1="40" y1="248" x2="60" y2="248" stroke="#D4A843" stroke-width="3"/>
-  <text x="66" y="252" font-family="sans-serif" font-size="9" fill="#555">пройма — не сшивать</text>
-</svg>
-
 ## Текстура решает
 
 Если берёшь толстую пряжу и платочную вязку — получаешь slouchy grandpa за вечер. Если готова к косам — это максимальные лайки, но минимум две недели работы. Brushed-мохер и fuzzy-акрил (Vogue тоже отметил) — это про streetwear 2026: пушистое полотно делает даже самый простой прямоугольник premium.

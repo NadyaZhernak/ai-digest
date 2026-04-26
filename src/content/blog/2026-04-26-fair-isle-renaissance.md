@@ -8,45 +8,18 @@ heroImage: ../../assets/2026-04-26-fair-isle-renaissance.png
 
 Fair Isle вернулась. После десятилетий забвения, когда это считалось "бабушкиным" вязанием, техника снова взлетела. Но это не просто возрождение — это полная переоценка того, что может быть Fair Isle. Молодые дизайнеры создают смелые, современные интерпретации классических узоров, и они выглядят ошеломительно.
 
-<svg viewBox="0 0 390 200" width="100%" style="max-width:440px;display:block;margin:1.5rem 0" xmlns="http://www.w3.org/2000/svg">
-  <!-- Классический узор -->
-  <text x="100" y="20" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#333">Классический</text>
-  <g>
-    <rect x="30" y="35" width="15" height="15" fill="#333"/>
-    <rect x="50" y="35" width="15" height="15" fill="#fff" stroke="#333" stroke-width="1"/>
-    <rect x="70" y="35" width="15" height="15" fill="#333"/>
-    <rect x="90" y="35" width="15" height="15" fill="#fff" stroke="#333" stroke-width="1"/>
-    <rect x="110" y="35" width="15" height="15" fill="#333"/>
-    
-    <rect x="30" y="55" width="15" height="15" fill="#fff" stroke="#333" stroke-width="1"/>
-    <rect x="50" y="55" width="15" height="15" fill="#333"/>
-    <rect x="70" y="55" width="15" height="15" fill="#fff" stroke="#333" stroke-width="1"/>
-    <rect x="90" y="55" width="15" height="15" fill="#333"/>
-    <rect x="110" y="55" width="15" height="15" fill="#fff" stroke="#333" stroke-width="1"/>
-  </g>
-  <text x="70" y="90" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">Чёрный + белый</text>
-
-  <!-- Современный узор -->
-  <text x="280" y="20" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#333">Современный</text>
-  <g>
-    <rect x="240" y="35" width="15" height="15" fill="#c2185b"/>
-    <rect x="260" y="35" width="15" height="15" fill="#fff" stroke="#333" stroke-width="1"/>
-    <rect x="280" y="35" width="15" height="15" fill="#c2185b"/>
-    <rect x="300" y="35" width="15" height="15" fill="#fff" stroke="#333" stroke-width="1"/>
-    <rect x="320" y="35" width="15" height="15" fill="#c2185b"/>
-    
-    <rect x="240" y="55" width="15" height="15" fill="#fff" stroke="#333" stroke-width="1"/>
-    <rect x="260" y="55" width="15" height="15" fill="#7cb342"/>
-    <rect x="280" y="55" width="15" height="15" fill="#fff" stroke="#333" stroke-width="1"/>
-    <rect x="300" y="55" width="15" height="15" fill="#7cb342"/>
-    <rect x="320" y="55" width="15" height="15" fill="#fff" stroke="#333" stroke-width="1"/>
-  </g>
-  <text x="280" y="90" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">Розовый + зелёный</text>
-
-  <line x1="30" y1="110" x2="360" y2="110" stroke="#ddd" stroke-width="1"/>
-  <text x="195" y="140" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#333">Эволюция Fair Isle: от традиции к смелым цветам</text>
-  <text x="195" y="160" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">Минимализм, неон, асимметрия — новые возможности</text>
-  <text x="195" y="175" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">Техника осталась, дизайн изменился</text>
+<svg width="100%" viewBox="0 0 380 80" xmlns="http://www.w3.org/2000/svg" style="max-width:380px;display:block;margin:1.5rem 0">
+  <text x="190" y="14" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#999">Палитра Fair Isle</text>
+  <rect x="10" y="24" width="60" height="40" fill="#FFFFFF" stroke="#ddd" stroke-width="1" rx="6"/>
+  <text x="40" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#555">Белый</text>
+  <rect x="80" y="24" width="60" height="40" fill="#808080" rx="6"/>
+  <text x="110" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="white">Серый</text>
+  <rect x="150" y="24" width="60" height="40" fill="#000000" rx="6"/>
+  <text x="180" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="white">Чёрный</text>
+  <rect x="220" y="24" width="60" height="40" fill="#8B6F47" rx="6"/>
+  <text x="250" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="white">Коричневый</text>
+  <rect x="290" y="24" width="70" height="40" fill="#D4B9E6" rx="6"/>
+  <text x="330" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#555">Модерн: Пастель</text>
 </svg>
 
 ## История, которая должна быть в каждом учебнике
