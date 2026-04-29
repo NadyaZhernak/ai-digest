@@ -68,10 +68,7 @@ Add to the article's frontmatter:
 heroImage: '../../assets/{slug}.png'
 ```
 
-## Step 6. Pull Request
-
-
-## Step 7. Report
+## Step 6. Report
 
 Print:
 - Topic name from `digest.config.json`.
