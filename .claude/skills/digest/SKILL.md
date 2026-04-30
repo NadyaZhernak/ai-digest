@@ -75,3 +75,13 @@ Print:
 - Article title and file path.
 - Cover image path.
 - Source URL.
+
+## Step 7. Commit and push
+
+Run:
+
+```bash
+git add src/content/blog/ src/assets/ && git commit -m "created article, generated image" && git push origin HEAD
+```
+
+Push to current branch (HEAD). No new branches. If commit fails (nothing to stage) — skip silently.
