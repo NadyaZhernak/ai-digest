@@ -3,7 +3,7 @@ import path from 'path';
 import { readExistingArticles, searchNews, slugify, type Topic } from './search.js';
 import { buildStubArticle, buildStyleWithPrompt, loadArticlePrompt, STYLE_DEFAULT } from './write.js';
 import { generateCoverImage } from './cover.js';
-import { createPullRequest } from './publish.js';
+import { writeArticle } from './publish.js';
 import { processSvgPlaceholders } from '../svg-gen/index.js';
 
 interface DigestConfig {
@@ -32,7 +32,9 @@ async function run() {
   let selectedTopic: Topic | null = null;
   let selectedNews = [];
 
-  for (const topic of config.topics) {
+  const shuffledTopics = config.topics.slice().sort(() => Math.random() - 0.5);
+
+  for (const topic of shuffledTopics) {
     const news = searchNews(topic.search_query);
 
     if (news.length === 0) {
@@ -81,16 +83,16 @@ async function run() {
   console.log('\nStep 5b: Generating SVG diagrams...');
   const articleWithSvg = processSvgPlaceholders(articleContent);
 
-  // Step 6: Create PR
-  console.log('\nStep 6: Creating pull request...');
-  const prUrl = createPullRequest(
-    `[STUB] Дайджест: ${selectedTopic.name}`,
+  // Step 6: Write article
+  console.log('\nStep 6: Writing article...');
+  const articlePath = writeArticle(
+    `Дайджест: ${selectedTopic.name}`,
     articleWithSvg,
     imagePath
   );
 
   console.log('\n=== Pipeline complete ===');
-  console.log(`PR: ${prUrl}`);
+  console.log(`Article: ${articlePath}`);
 }
 
 run().catch(err => {

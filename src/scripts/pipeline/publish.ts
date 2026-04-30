@@ -2,8 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { slugify } from './search.js';
 
-/** STUB: writes article .md locally. Will create GitHub PR in Step 5. */
-export function createPullRequest(
+export function writeArticle(
   title: string,
   content: string,
   imagePath: string
@@ -17,10 +16,8 @@ export function createPullRequest(
   fs.mkdirSync(destDir, { recursive: true });
   fs.writeFileSync(destPath, content, 'utf-8');
 
-  const prLabel = `[STUB] Would create PR: "digest: ${title}"`;
-  console.log(`[STUB] Article written to ${destPath}`);
-  console.log(`[STUB] Cover at: ${imagePath}`);
-  console.log(prLabel);
+  console.log(`Article written to ${destPath}`);
+  console.log(`Cover at: ${imagePath}`);
 
-  return prLabel;
+  return destPath;
 }

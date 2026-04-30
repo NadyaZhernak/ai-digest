@@ -1,20 +1,20 @@
 ---
 name: digest
-description: Full digest publishing cycle — topic pick, search, write, cover, PR
-disable-model-invocation: true
+description: Full digest publishing cycle — topic pick, search, write, cover, publish
 ---
 
 Run one full publishing cycle for the knitting/crochet digest (trends, yarn, techniques, seasonal colors, social microtrends). One article per run. If no unique topic or no cover — abort without publishing.
 
 ## Step 1. Pick a topic
 
-Read `digest.config.json`. Iterate topics top to bottom and pick the first one that can produce a new article:
-- Read existing articles in `src/content/blog/` — collect their slugs and titles.
+Read `digest.config.json`. **Shuffle the topic list randomly** before iterating — do not go top to bottom. This ensures all 6 categories appear evenly over time (per `.claude/rules/editorial-policy.md`).
+
+- List and read existing articles using the relative path `src/content/blog/` (never absolute) — collect their slugs and titles.
+- Count how many articles already exist per topic (by matching slugs/tags). Prefer topics with fewer existing articles to maintain balance.
 - Each topic may cover multiple sub-themes; existing articles do **not** block a topic from being selected again.
 - A topic is skippable only if there is no unique angle left (determined in Step 2 after searching).
-- Go to Step 2 with the first topic in the list.
 
-If Tavily search (Step 2) returns nothing new for the selected topic, move to the next topic. If all 6 topics are exhausted with no unique source — report and exit.
+If Tavily search (Step 2) returns nothing new for the selected topic, move to the next topic in the shuffled order. If all 6 topics are exhausted with no unique source — report and exit.
 
 ## Step 2. Find a source
 
@@ -75,4 +75,3 @@ Print:
 - Article title and file path.
 - Cover image path.
 - Source URL.
-- Created PR URL.

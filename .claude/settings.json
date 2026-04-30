@@ -1,14 +1,34 @@
 {
     "permissions": {
+        "defaultMode": "acceptEdits",
         "allow": [
             "Bash(git add *)",
             "Bash(git commit *)",
             "Bash(git push *)",
-            "Write(content/**)",
-            "Write(public/covers/**)",
-            "Edit(content/**)",
+            "Bash(git checkout *)",
+            "Bash(curl *)",
+            "Write(**/src/content/**)",
+            "Write(**/src/assets/**)",
+            "Edit(**/src/content/**)",
+            "Edit(**/src/assets/**)",
             "mcp__tavily__*",
-            "mcp__replicate__*"
+            "mcp__tavily-mcp__*",
+            "mcp__replicate__*",
+            "Bash(ls *src/content/blog*)"
+        ],
+        "deny": [
+            "Bash(rm -rf *)",
+            "Bash(cat .env*)",
+            "Bash(cat **/.env*)",
+            "Bash(head .env*)",
+            "Bash(head **/.env*)",
+            "Bash(tail .env*)",
+            "Bash(tail **/.env*)",
+            "Bash(type .env*)",
+            "Bash(type **/.env*)",
+            "Read(.env*)",
+            "Read(**/.env*)",
+            "Read(./secrets/**)"
         ]
     },
     "hooks": {
@@ -30,6 +50,26 @@
                     {
                         "type": "command",
                         "command": "\"$CLAUDE_PROJECT_DIR/.claude/hooks/block-dangerous.sh\""
+                    }
+                ]
+            },
+            {
+                "matcher": "Bash",
+                "if": "Bash(ls *)",
+                "hooks": [
+                    {
+                        "type": "command",
+                        "command": "printf '{\"hookSpecificOutput\":{\"hookEventName\":\"PreToolUse\",\"permissionDecision\":\"allow\"}}'"
+                    }
+                ]
+            },
+            {
+                "matcher": "Bash",
+                "if": "Bash(find *)",
+                "hooks": [
+                    {
+                        "type": "command",
+                        "command": "printf '{\"hookSpecificOutput\":{\"hookEventName\":\"PreToolUse\",\"permissionDecision\":\"allow\"}}'"
                     }
                 ]
             }

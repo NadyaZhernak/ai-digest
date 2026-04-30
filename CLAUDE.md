@@ -28,7 +28,7 @@ npm run pipeline   # запуск AI-пайплайна публикации
 3. **write.ts** — загружает тематический промпт из `docs/prompts/` или использует `STYLE_DEFAULT`
 4. **cover.ts** — генерирует обложку через Replicate (`ideogram-ai/ideogram-v3-turbo`, 16:9 png), сохраняет в `src/assets/{slug}.png`
 5. **write.ts** — строит заглушку статьи (`buildStubArticle` — реальный вызов Claude API будет в Step 5)
-6. **publish.ts** — пишет `.md` в `src/content/blog/` и создаёт PR (`createPullRequest` — пока STUB, запишет файл локально)
+6. **publish.ts** — пишет `.md` в `src/content/blog/` (`writeArticle`)
 
 ### Конфигурация пайплайна
 
